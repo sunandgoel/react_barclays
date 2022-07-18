@@ -28,7 +28,7 @@ function User() {
                 <CardTitle tag="h5">Mailing List</CardTitle>
               </CardHeader>
               <CardBody>
-                <Form>
+                <Form method="post">
                   <Row>
                     <Col className="pr-1" md="5">
                       <FormGroup>
@@ -75,16 +75,16 @@ function User() {
                         
                       </FormGroup>
                     </Col>
-                    <Col className="pl-1" md="6">
+                    {/* <Col className="pl-1" md="6">
                       <FormGroup>
                         <label>Last Name</label>
                         <Input
                           defaultValue="Faker"
                           placeholder="Last Name"
-                          type="text"
+                          type="text"creati
                         />
                       </FormGroup>
-                    </Col>
+                    </Col> */}
                   </Row>
                   <Row>
                     <Col md="12">
